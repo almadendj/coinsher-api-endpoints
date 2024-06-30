@@ -15,7 +15,10 @@ Returns: {
 	"amount": 100,
 	"currency": "BTC",
 	"fiat_currency": "PHP",
-	"payment_method": "GCash",
+	"payment_method": {
+		"name": "GCash",
+		"logo_url": "https://example.com/asdf"
+	},
 	"status": "pending"
 }
 ```
@@ -30,7 +33,10 @@ Returns: {
 	"currency": "BTC",
 	"fiat_currency": "PHP",
 	"price": 58.78, // price in fiat currency
-	"payment_method": "GCash",
+	"payment_method": {
+		"name": "GCash",
+		"logo_url": "https://example.com/asdf"
+	},
 	"status": "pending",
 	"created_at": "2024-07-01T12:00:00Z", 
 	"expires_at": "2024-07-01T15:00:00Z"

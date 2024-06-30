@@ -28,13 +28,15 @@ Returns: [
 		"verified": true,
 		"payment_methods"?: [
 			{
-				"name": "GCASH",
-				"logo": "https://gcash.com/klsajdfjla",
-			}, 
-			{
-				"name": "GCASH",
-				"logo": "https://gcash.com/klsajdfjla",
+				"id": "pm_gcash",
+				"name": "GCash",
+				"logo_url": "https://example.com/lkajd",
 			},
+			{
+				"id": "bpi",
+				"name": "BPI Bank Transfer",
+				"logo_url": "https://example.com/lksjdf",
+			}
 		],
 	}
 ]
@@ -69,13 +71,15 @@ Returns: {
 	"verified": true,
 	"payment_methods"?: [
 		{
-			"name": "GCASH",
-			"logo": "https://gcash.com/klsajdfjla",
-		}, 
-		{
-			"name": "GCASH",
-			"logo": "https://gcash.com/klsajdfjla",
+			"id": "pm_gcash",
+			"name": "GCash",
+			"logo_url": "https://example.com/lkajd",
 		},
+		{
+			"id": "bpi",
+			"name": "BPI Bank Transfer",
+			"logo_url": "https://example.com/lksjdf",
+		}
 	],
 }
 ```

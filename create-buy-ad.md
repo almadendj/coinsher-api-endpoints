@@ -21,7 +21,18 @@ Returns: {
 	"fiat_currency": "PHP",
 	"amount": 5000,
 	"price_per_unit": 370092.12,
-	"payment_methods": [ "GCash", "Bank Transfer" ],
+	"payment_methods": [
+		{
+			"id": "pm_gcash",
+			"name": "GCash",
+			"logo_url": "https://example.com/lkajd",
+		},
+		{
+			"id": "bpi",
+			"name": "BPI Bank Transfer",
+			"logo_url": "https://example.com/lksjdf",
+		}
+	],
 	"status": "online",
 }
 ```
