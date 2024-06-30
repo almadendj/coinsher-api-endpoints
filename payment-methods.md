@@ -9,7 +9,8 @@ Returns: [
 		"details": {
 			"name": "GCash",
 			"phone_number": "09165980287",
-			"account_name": "Dan Jeryll R. Almaden"
+			"account_name": "Dan Jeryll R. Almaden",
+			"logo_url": "https://example.com/lkajsdf",
 		},
 		"verified": true,
 		"created_at": "2024-07-02T14:30:00Z",
@@ -20,7 +21,8 @@ Returns: [
 		"details": {
 			"name": "BPI Bank Transfer",
 			"account_number": "123123123",
-			"account_name": "Dan Jeryll R. Almaden"
+			"account_name": "Dan Jeryll R. Almaden",
+			"logo_url": "https://example.com/lkajsdf",
 		},
 		"verified": true,
 		"created_at": "2024-07-02T14:30:00Z"
@@ -30,7 +32,8 @@ Returns: [
 		"type": "PayPal",
 		"details": {
 			"username": "almadendj",
-			"email": "almadendj@gmail.com"
+			"email": "almadendj@gmail.com",
+			"logo_url": "https://example.com/lkajsdf",
 		},
 		"verified": false,
 		"created_at": "2024-07-02T14:30:00Z"
